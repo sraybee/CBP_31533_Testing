@@ -1,6 +1,6 @@
 apiVersion: automation.cloudbees.io/v1alpha1
 kind: workflow
-name: My workflow
+name: My workflow - Reproduce 100 Step Limit Bug
 on:
   push:
     branches:
@@ -9,8 +9,318 @@ on:
 jobs:
   build:
     steps:
-      - name: Say hello
-        uses: docker://golang:1.20.3-alpine3.17
-        shell: sh
-        run: |
-          echo "hello world"
+      - name: Step 1
+        uses: docker://alpine:3.17
+        run: echo "Step 1"
+      - name: Step 2
+        uses: docker://alpine:3.17
+        run: echo "Step 2"
+      - name: Step 3
+        uses: docker://alpine:3.17
+        run: echo "Step 3"
+      - name: Step 4
+        uses: docker://alpine:3.17
+        run: echo "Step 4"
+      - name: Step 5
+        uses: docker://alpine:3.17
+        run: echo "Step 5"
+      - name: Step 6
+        uses: docker://alpine:3.17
+        run: echo "Step 6"
+      - name: Step 7
+        uses: docker://alpine:3.17
+        run: echo "Step 7"
+      - name: Step 8
+        uses: docker://alpine:3.17
+        run: echo "Step 8"
+      - name: Step 9
+        uses: docker://alpine:3.17
+        run: echo "Step 9"
+      - name: Step 10
+        uses: docker://alpine:3.17
+        run: echo "Step 10"
+      - name: Step 11
+        uses: docker://alpine:3.17
+        run: echo "Step 11"
+      - name: Step 12
+        uses: docker://alpine:3.17
+        run: echo "Step 12"
+      - name: Step 13
+        uses: docker://alpine:3.17
+        run: echo "Step 13"
+      - name: Step 14
+        uses: docker://alpine:3.17
+        run: echo "Step 14"
+      - name: Step 15
+        uses: docker://alpine:3.17
+        run: echo "Step 15"
+      - name: Step 16
+        uses: docker://alpine:3.17
+        run: echo "Step 16"
+      - name: Step 17
+        uses: docker://alpine:3.17
+        run: echo "Step 17"
+      - name: Step 18
+        uses: docker://alpine:3.17
+        run: echo "Step 18"
+      - name: Step 19
+        uses: docker://alpine:3.17
+        run: echo "Step 19"
+      - name: Step 20
+        uses: docker://alpine:3.17
+        run: echo "Step 20"
+      - name: Step 21
+        uses: docker://alpine:3.17
+        run: echo "Step 21"
+      - name: Step 22
+        uses: docker://alpine:3.17
+        run: echo "Step 22"
+      - name: Step 23
+        uses: docker://alpine:3.17
+        run: echo "Step 23"
+      - name: Step 24
+        uses: docker://alpine:3.17
+        run: echo "Step 24"
+      - name: Step 25
+        uses: docker://alpine:3.17
+        run: echo "Step 25"
+      - name: Step 26
+        uses: docker://alpine:3.17
+        run: echo "Step 26"
+      - name: Step 27
+        uses: docker://alpine:3.17
+        run: echo "Step 27"
+      - name: Step 28
+        uses: docker://alpine:3.17
+        run: echo "Step 28"
+      - name: Step 29
+        uses: docker://alpine:3.17
+        run: echo "Step 29"
+      - name: Step 30
+        uses: docker://alpine:3.17
+        run: echo "Step 30"
+      - name: Step 31
+        uses: docker://alpine:3.17
+        run: echo "Step 31"
+      - name: Step 32
+        uses: docker://alpine:3.17
+        run: echo "Step 32"
+      - name: Step 33
+        uses: docker://alpine:3.17
+        run: echo "Step 33"
+      - name: Step 34
+        uses: docker://alpine:3.17
+        run: echo "Step 34"
+      - name: Step 35
+        uses: docker://alpine:3.17
+        run: echo "Step 35"
+      - name: Step 36
+        uses: docker://alpine:3.17
+        run: echo "Step 36"
+      - name: Step 37
+        uses: docker://alpine:3.17
+        run: echo "Step 37"
+      - name: Step 38
+        uses: docker://alpine:3.17
+        run: echo "Step 38"
+      - name: Step 39
+        uses: docker://alpine:3.17
+        run: echo "Step 39"
+      - name: Step 40
+        uses: docker://alpine:3.17
+        run: echo "Step 40"
+      - name: Step 41
+        uses: docker://alpine:3.17
+        run: echo "Step 41"
+      - name: Step 42
+        uses: docker://alpine:3.17
+        run: echo "Step 42"
+      - name: Step 43
+        uses: docker://alpine:3.17
+        run: echo "Step 43"
+      - name: Step 44
+        uses: docker://alpine:3.17
+        run: echo "Step 44"
+      - name: Step 45
+        uses: docker://alpine:3.17
+        run: echo "Step 45"
+      - name: Step 46
+        uses: docker://alpine:3.17
+        run: echo "Step 46"
+      - name: Step 47
+        uses: docker://alpine:3.17
+        run: echo "Step 47"
+      - name: Step 48
+        uses: docker://alpine:3.17
+        run: echo "Step 48"
+      - name: Step 49
+        uses: docker://alpine:3.17
+        run: echo "Step 49"
+      - name: Step 50
+        uses: docker://alpine:3.17
+        run: echo "Step 50"
+      - name: Step 51
+        uses: docker://alpine:3.17
+        run: echo "Step 51"
+      - name: Step 52
+        uses: docker://alpine:3.17
+        run: echo "Step 52"
+      - name: Step 53
+        uses: docker://alpine:3.17
+        run: echo "Step 53"
+      - name: Step 54
+        uses: docker://alpine:3.17
+        run: echo "Step 54"
+      - name: Step 55
+        uses: docker://alpine:3.17
+        run: echo "Step 55"
+      - name: Step 56
+        uses: docker://alpine:3.17
+        run: echo "Step 56"
+      - name: Step 57
+        uses: docker://alpine:3.17
+        run: echo "Step 57"
+      - name: Step 58
+        uses: docker://alpine:3.17
+        run: echo "Step 58"
+      - name: Step 59
+        uses: docker://alpine:3.17
+        run: echo "Step 59"
+      - name: Step 60
+        uses: docker://alpine:3.17
+        run: echo "Step 60"
+      - name: Step 61
+        uses: docker://alpine:3.17
+        run: echo "Step 61"
+      - name: Step 62
+        uses: docker://alpine:3.17
+        run: echo "Step 62"
+      - name: Step 63
+        uses: docker://alpine:3.17
+        run: echo "Step 63"
+      - name: Step 64
+        uses: docker://alpine:3.17
+        run: echo "Step 64"
+      - name: Step 65
+        uses: docker://alpine:3.17
+        run: echo "Step 65"
+      - name: Step 66
+        uses: docker://alpine:3.17
+        run: echo "Step 66"
+      - name: Step 67
+        uses: docker://alpine:3.17
+        run: echo "Step 67"
+      - name: Step 68
+        uses: docker://alpine:3.17
+        run: echo "Step 68"
+      - name: Step 69
+        uses: docker://alpine:3.17
+        run: echo "Step 69"
+      - name: Step 70
+        uses: docker://alpine:3.17
+        run: echo "Step 70"
+      - name: Step 71
+        uses: docker://alpine:3.17
+        run: echo "Step 71"
+      - name: Step 72
+        uses: docker://alpine:3.17
+        run: echo "Step 72"
+      - name: Step 73
+        uses: docker://alpine:3.17
+        run: echo "Step 73"
+      - name: Step 74
+        uses: docker://alpine:3.17
+        run: echo "Step 74"
+      - name: Step 75
+        uses: docker://alpine:3.17
+        run: echo "Step 75"
+      - name: Step 76
+        uses: docker://alpine:3.17
+        run: echo "Step 76"
+      - name: Step 77
+        uses: docker://alpine:3.17
+        run: echo "Step 77"
+      - name: Step 78
+        uses: docker://alpine:3.17
+        run: echo "Step 78"
+      - name: Step 79
+        uses: docker://alpine:3.17
+        run: echo "Step 79"
+      - name: Step 80
+        uses: docker://alpine:3.17
+        run: echo "Step 80"
+      - name: Step 81
+        uses: docker://alpine:3.17
+        run: echo "Step 81"
+      - name: Step 82
+        uses: docker://alpine:3.17
+        run: echo "Step 82"
+      - name: Step 83
+        uses: docker://alpine:3.17
+        run: echo "Step 83"
+      - name: Step 84
+        uses: docker://alpine:3.17
+        run: echo "Step 84"
+      - name: Step 85
+        uses: docker://alpine:3.17
+        run: echo "Step 85"
+      - name: Step 86
+        uses: docker://alpine:3.17
+        run: echo "Step 86"
+      - name: Step 87
+        uses: docker://alpine:3.17
+        run: echo "Step 87"
+      - name: Step 88
+        uses: docker://alpine:3.17
+        run: echo "Step 88"
+      - name: Step 89
+        uses: docker://alpine:3.17
+        run: echo "Step 89"
+      - name: Step 90
+        uses: docker://alpine:3.17
+        run: echo "Step 90"
+      - name: Step 91
+        uses: docker://alpine:3.17
+        run: echo "Step 91"
+      - name: Step 92
+        uses: docker://alpine:3.17
+        run: echo "Step 92"
+      - name: Step 93
+        uses: docker://alpine:3.17
+        run: echo "Step 93"
+      - name: Step 94
+        uses: docker://alpine:3.17
+        run: echo "Step 94"
+      - name: Step 95
+        uses: docker://alpine:3.17
+        run: echo "Step 95"
+      - name: Step 96
+        uses: docker://alpine:3.17
+        run: echo "Step 96"
+      - name: Step 97
+        uses: docker://alpine:3.17
+        run: echo "Step 97"
+      - name: Step 98
+        uses: docker://alpine:3.17
+        run: echo "Step 98"
+      - name: Step 99
+        uses: docker://alpine:3.17
+        run: echo "Step 99"
+      - name: Step 100
+        uses: docker://alpine:3.17
+        run: echo "Step 100"
+      - name: Step 101 - THIS SHOULD FAIL
+        uses: docker://alpine:3.17
+        run: echo "Step 101 - If you see this, the limit is broken"
+      - name: Step 102
+        uses: docker://alpine:3.17
+        run: echo "Step 102"
+      - name: Step 103
+        uses: docker://alpine:3.17
+        run: echo "Step 103"
+      - name: Step 104
+        uses: docker://alpine:3.17
+        run: echo "Step 104"
+      - name: Step 105
+        uses: docker://alpine:3.17
+        run: echo "Step 105"

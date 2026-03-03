@@ -756,7 +756,3 @@ jobs:
       - name: Step 249
         uses: docker://alpine:3.17
         run: echo "Step 249"
-      - name: Step 250
-        uses: docker://alpine:3.17
-        run: echo "Step 250"
-

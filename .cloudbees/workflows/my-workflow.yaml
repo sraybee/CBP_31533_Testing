@@ -894,18 +894,3 @@ jobs:
       - name: Step 295
         uses: docker://alpine:3.17
         run: echo "Step 295"
-      - name: Step 296
-        uses: docker://alpine:3.17
-        run: echo "Step 296"
-      - name: Step 297
-        uses: docker://alpine:3.17
-        run: echo "Step 297"
-      - name: Step 298
-        uses: docker://alpine:3.17
-        run: echo "Step 298"
-      - name: Step 299
-        uses: docker://alpine:3.17
-        run: echo "Step 299"
-      - name: Step 300
-        uses: docker://alpine:3.17
-        run: echo "Step 300"
